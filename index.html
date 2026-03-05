@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+
+    <select name="operator" id="operatorDropdown">
+        <option value="">-- Please select operator --</option>
+        <option value="sum">add</option>
+        <option value="difference">subtract</option>
+        <option value="product">multiply</option>
+        <option value="quotient">divide</option>
+    </select>
+
+    <label for="num1">Num 1:</label>
+    <input id="num1" class="textbox" type="number" />
+    <label for="num2">Num 2:</label>
+    <input id="num2" class="textbox" type="number" />
+
+    <button class="btn" onclick="compute()">Compute</button>
+
+    <h1 id="answer">Answer: </h1>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+
+.textbox {
+    height: 40px;
+    width: 160px;
+    font-size: 24px;
+}
+
+.btn {
+    height: 40px;
+    font-size: 24px;
+}
+
+select {
+    height: 40px;
+    font-size: 24px;
+}
